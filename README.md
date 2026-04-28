@@ -3,7 +3,7 @@
 A highly polished, recruiter-ready web application built to explore the Pokémon universe. This project was developed to fulfill the "Pokédex Lite" assignment, successfully completing **100% of all Mandatory and Bonus Requirements**.
 
 ## 🌟 Live Demo
-*(Insert your Vercel/Netlify link here once deployed)*
+[https://pokemon-pearl-kappa.vercel.app/](https://pokemon-pearl-kappa.vercel.app/)
 
 ---
 
@@ -19,7 +19,7 @@ A highly polished, recruiter-ready web application built to explore the Pokémon
 - **Detail View**: A dedicated, detailed page route showing large official artwork, ID, dimensions, and type badges.
 
 ### 🚀 Bonus Requirements (Fully Completed)
-- **User Authentication (OAuth)**: Integrated `NextAuth.js` with **Google OAuth**. The application dynamically locks the main dashboard and protects local storage `favorites` behind an authenticated user session.
+- **User Authentication (OAuth)**: Integrated `NextAuth.js` with **Google OAuth**. The application allows public access to the main Pokédex while protecting local storage `favorites` behind an authenticated user session.
 - **High-Fidelity Animations**: Integrated `Framer Motion` and custom CSS physics for page-level transitions, hover scaling, glow effects, and a stunning `CanvasText` hero landing page.
 - **Server-Side Rendering (SSR)**: The application utilizes **Next.js 16 (App Router)**. The detailed Pokémon pages (`/pokemon/[name]`) are explicitly Server-Rendered components, automatically generating dynamic SEO metadata (`generateMetadata`) to ensure lightning-fast initial loads and top-tier indexing.
 

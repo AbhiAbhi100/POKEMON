@@ -14,8 +14,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="dark">
-      <body className={`${inter.className} bg-[#0a0a0a] min-h-screen flex flex-col text-white antialiased selection:bg-purple-500/30 selection:text-white overflow-x-hidden`}>
+    <html lang="en" className="dark" suppressHydrationWarning>
+      <body suppressHydrationWarning className={`${inter.className} bg-[#0a0a0a] min-h-screen flex flex-col text-white antialiased selection:bg-purple-500/30 selection:text-white overflow-x-hidden`}>
         <AuthProvider>
           <FavoritesProvider>
             <Header />
